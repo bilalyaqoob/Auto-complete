@@ -4,9 +4,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Install packages
+
+### `yarn install`
+
+Install Json Server
+
+### `sudo npm install -g json-server`
+
 In the project directory, you can run:
 
 ### `yarn start`
+### `json-server --watch src/JsonServer/db.json --port 3004`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
